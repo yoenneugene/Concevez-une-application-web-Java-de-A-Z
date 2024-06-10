@@ -1,3 +1,10 @@
+-- Créer la base de données
+CREATE DATABASE IF NOT EXISTS `data` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+-- Sélectionner la base de données pour l'utiliser
+USE `data`;
+
+-- Créer la table 'profil'
 CREATE TABLE `profil` (
   `argent` float NOT NULL,
   `id` bigint NOT NULL AUTO_INCREMENT,
